@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T09:24:13.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="mL5bXJ_bj-Lcfjwb5vWb" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:37:46.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="T5uwYysMK7LVJzETukZZ" version="16.5.6" type="github" pages="6">
   <diagram id="JhzkgyImC-D4xN26EuLz" name="BI Life Cycle">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,80 +109,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Y_lWf4qPFcXqctHnYwXb" name="Power BI">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-0" />
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-1" parent="PrLqWZvnRohKOz_KjmCJ-0" />
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-2" target="PrLqWZvnRohKOz_KjmCJ-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="150" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-2" target="PrLqWZvnRohKOz_KjmCJ-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="260" y="170" />
-              <mxPoint x="425" y="170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-2" value="Power BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
-          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-3" target="PrLqWZvnRohKOz_KjmCJ-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-3" value="Power BI Desktop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
-          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-4" target="PrLqWZvnRohKOz_KjmCJ-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-4" value="Power BI Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
-          <mxGeometry x="365" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-7" value="&lt;ul&gt;&lt;li&gt;Installed on Desktop&lt;/li&gt;&lt;li&gt;Developer creates a report and generates a .pbix file&lt;/li&gt;&lt;li&gt;Generated file will be pushed to the Power BI Service [on the required workspace]&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
-          <mxGeometry x="40" y="310" width="190" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="PrLqWZvnRohKOz_KjmCJ-8" value="&lt;ul&gt;&lt;li&gt;Once the File pushed to the service, user can see 2 types of files on the workspace:&lt;br&gt;1&amp;gt; Report&amp;nbsp;&lt;br&gt;2&amp;gt; Dataset&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
-          <mxGeometry x="340" y="320" width="190" height="180" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="-tgfkHnamFS5OOfSuGr3" name="Cubes to Power BI">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-0" />
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-1" parent="PNfwx2TKsF5dFHJ5w1FN-0" />
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PNfwx2TKsF5dFHJ5w1FN-1" source="PNfwx2TKsF5dFHJ5w1FN-2" target="PNfwx2TKsF5dFHJ5w1FN-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-2" value="Data coming on the SQL Server [OLTP]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
-          <mxGeometry x="320" y="80" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uAI8Wc8-C3a6XIUMk5UG-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="PNfwx2TKsF5dFHJ5w1FN-1" source="PNfwx2TKsF5dFHJ5w1FN-3" target="PNfwx2TKsF5dFHJ5w1FN-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-3" value="Data Coming on SSAS&amp;nbsp;&lt;br&gt;[OLAP]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
-          <mxGeometry x="320" y="240" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
-          <mxGeometry x="660" y="80" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-6" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
-          <mxGeometry x="650" y="240" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-7" value="Reports are generated in POWER BI using SSAS Cubes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
-          <mxGeometry x="320" y="440" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uAI8Wc8-C3a6XIUMk5UG-1" value="Limitation Of Using This Approach:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;If we are using &lt;b&gt;Live Connection&lt;/b&gt;&amp;nbsp; then we can connect to only single data set.&lt;/li&gt;&lt;li&gt;While we are using &lt;b&gt;IMPORT &lt;/b&gt;mode, we are getting memory issues for that Microsoft team is already engaged and have no solution for that as of now.&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=default;fontColor=default;align=left;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
-          <mxGeometry x="30" y="440" width="250" height="240" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="FTBWX5BI25BOrN6cOPPx" name="Live Connection and Direct Query">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -228,11 +154,117 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5aRZko45qfVtIsYCrmOM" name="Page-6">
+  <diagram id="Y_lWf4qPFcXqctHnYwXb" name="Power BI">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="5yuoDpNMRwumZG2agw0A-0" />
-        <mxCell id="5yuoDpNMRwumZG2agw0A-1" parent="5yuoDpNMRwumZG2agw0A-0" />
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-0" />
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-1" parent="PrLqWZvnRohKOz_KjmCJ-0" />
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-2" target="PrLqWZvnRohKOz_KjmCJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-2" target="PrLqWZvnRohKOz_KjmCJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="170" />
+              <mxPoint x="425" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-2" value="Power BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-3" target="PrLqWZvnRohKOz_KjmCJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-3" value="Power BI Desktop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PrLqWZvnRohKOz_KjmCJ-1" source="PrLqWZvnRohKOz_KjmCJ-4" target="PrLqWZvnRohKOz_KjmCJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-4" value="Power BI Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
+          <mxGeometry x="365" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-7" value="&lt;ul&gt;&lt;li&gt;Installed on Desktop&lt;/li&gt;&lt;li&gt;Developer creates a report and generates a .pbix file&lt;/li&gt;&lt;li&gt;Generated file will be pushed to the Power BI Service [on the required workspace]&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
+          <mxGeometry x="40" y="310" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PrLqWZvnRohKOz_KjmCJ-8" value="&lt;ul&gt;&lt;li&gt;Once the File pushed to the service, user can see 2 types of files on the workspace:&lt;br&gt;1&amp;gt; Report&amp;nbsp;&lt;br&gt;2&amp;gt; Dataset&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="PrLqWZvnRohKOz_KjmCJ-1">
+          <mxGeometry x="340" y="320" width="190" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-tgfkHnamFS5OOfSuGr3" name="Current Approach">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-0" />
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-1" parent="PNfwx2TKsF5dFHJ5w1FN-0" />
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PNfwx2TKsF5dFHJ5w1FN-1" source="PNfwx2TKsF5dFHJ5w1FN-2" target="PNfwx2TKsF5dFHJ5w1FN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-2" value="Data coming on the SQL Server [OLTP]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="320" y="80" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAI8Wc8-C3a6XIUMk5UG-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="PNfwx2TKsF5dFHJ5w1FN-1" source="PNfwx2TKsF5dFHJ5w1FN-3" target="PNfwx2TKsF5dFHJ5w1FN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-3" value="Data Coming on SSAS&amp;nbsp;&lt;br&gt;[OLAP]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="320" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="660" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-6" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="650" y="240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfwx2TKsF5dFHJ5w1FN-7" value="Reports are generated in POWER BI using SSAS Cubes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="320" y="440" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAI8Wc8-C3a6XIUMk5UG-1" value="Limitation Of Using This Approach:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;If we are using &lt;b&gt;Live Connection&lt;/b&gt;&amp;nbsp; then we can connect to only single data set.&lt;/li&gt;&lt;li&gt;While we are using &lt;b&gt;IMPORT &lt;/b&gt;mode, we are getting memory issues for that Microsoft team is already engaged and have no solution for that as of now.&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=default;fontColor=default;align=left;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="30" y="440" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="X9KQCyljq0Hrr16__d6r-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px&quot;&gt;Current Approach&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="PNfwx2TKsF5dFHJ5w1FN-1">
+          <mxGeometry x="20" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Expected Approach" id="iCbYMsfCe8vADU-XfwwU">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="caSjZaJb4P2PAgER5PdQ-0" />
+        <mxCell id="caSjZaJb4P2PAgER5PdQ-1" parent="caSjZaJb4P2PAgER5PdQ-0" />
+        <mxCell id="ox34V2VKqwPSwcpE51j3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=21;fontColor=default;" edge="1" parent="caSjZaJb4P2PAgER5PdQ-1" source="caSjZaJb4P2PAgER5PdQ-3" target="caSjZaJb4P2PAgER5PdQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="150" />
+              <mxPoint x="440" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caSjZaJb4P2PAgER5PdQ-3" value="Data From the SQL Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="caSjZaJb4P2PAgER5PdQ-1">
+          <mxGeometry x="50" y="120" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="caSjZaJb4P2PAgER5PdQ-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="caSjZaJb4P2PAgER5PdQ-1">
+          <mxGeometry x="130" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="caSjZaJb4P2PAgER5PdQ-8" value="Reports are generated in POWER BI using SQL Server Direct Queries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="caSjZaJb4P2PAgER5PdQ-1">
+          <mxGeometry x="340" y="350" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="caSjZaJb4P2PAgER5PdQ-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px&quot;&gt;Expected Approach&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="caSjZaJb4P2PAgER5PdQ-1">
+          <mxGeometry x="325" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ox34V2VKqwPSwcpE51j3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.646;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=21;fontColor=default;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="caSjZaJb4P2PAgER5PdQ-1" source="ox34V2VKqwPSwcpE51j3-0" target="caSjZaJb4P2PAgER5PdQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ox34V2VKqwPSwcpE51j3-0" value="S4Hana Cloud&lt;br&gt;Source" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=21;fontColor=default;" vertex="1" parent="caSjZaJb4P2PAgER5PdQ-1">
+          <mxGeometry x="580" y="80" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ox34V2VKqwPSwcpE51j3-4" value="Points to be considered:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Since we are&amp;nbsp;&lt;/span&gt;&lt;font size=&quot;1&quot;&gt;querying&amp;nbsp;directly on the SQL Server, based on the frequency of updates there may be a performance glitch on the Sql Side.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;This approach is future ready but since S4 Hana implementation is in very initial stage and rollout would be in phases, reengineering may be required at the later point of time.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=default;fontSize=21;fontColor=default;align=left;" vertex="1" parent="caSjZaJb4P2PAgER5PdQ-1">
+          <mxGeometry x="10" y="310" width="290" height="360" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
